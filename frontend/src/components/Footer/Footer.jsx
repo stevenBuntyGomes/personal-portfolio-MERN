@@ -11,6 +11,10 @@ const Footer = () => {
         <Typography variant="h5">About Me</Typography>
         <Typography>
           Hey, my name is Stephen Bunty Gomes. I am a Full-Stack Developer and I work with MERN Stack Technologies.
+          Contact Me: 
+          Email: stevengomesfreelancer23@gmail.com 
+          Social Media Links are given in the right side.
+          Thank You.
         </Typography>
 
         <Link to="/contact" className="footerContactBtn">
