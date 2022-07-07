@@ -10,7 +10,7 @@ const Footer = () => {
       <div>
         <Typography variant="h5">About Me</Typography>
         <Typography>
-          Hey, my name is Stephen Bunty Gomes. I am a Full-Stack Developer and I work with MERN Stack Technologies.
+          Hey, my name is Stephen Gomes. I am a Full-Stack Developer and I work with MERN Stack Technologies.
           Contact Me: 
           Email: stevengomesfreelancer23@gmail.com 
           Social Media Links are given in the right side.
@@ -23,17 +23,18 @@ const Footer = () => {
       </div>
       <div>
         <Typography variant="h6">Social Media</Typography>
-        <a href="https://github.com/stevenBuntyGomes/" target="black">
-          <BsGithub />
-        </a>
         <a href="https://www.instagram.com/steven_into_multiverse/" target="black">
           <BsInstagram />
         </a>
-        <a href="https://www.linkedin.com/in/steven-gomes-848823238/" target="black">
+        <a href="https://www.linkedin.com/in/stephen-gomes-848823238/" target="black">
           <BsLinkedin />
         </a>
         <a href="https://www.facebook.com/buntys.gomes/" target="black">
           <BsFacebook />
+        </a>
+
+        <a href="https://github.com/stevenBuntyGomes/" target="black">
+          <BsGithub />
         </a>
       </div>
     </div>

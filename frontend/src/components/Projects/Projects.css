@@ -98,7 +98,7 @@
 }
 
 .projectCard:hover div:first-child {
-  filter: hue-rotate(240deg) blur(4px);
+  filter: hue-rotate(240deg);
 }
 
 @keyframes projectCardAnimation {

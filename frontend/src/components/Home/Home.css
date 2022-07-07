@@ -3,8 +3,12 @@
   max-width: 100%;
   height: 100vh;
   max-width: 100%;
-  filter: blur(10px);
+  /* filter: blur(2px); */
   position: absolute;
+  background-image: url('../../Images/background.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
 }
 
 /* about container home version starts */
@@ -38,7 +42,7 @@
 /* abouyt container home version ends */
 
 .homeCanvasContainer {
-  background-color: rgba(0, 0, 0, 0.048);
+  background-color: hsl(219, 48%, 8%, 0.1);
   width: 100%;
   z-index: 2;
   position: relative;
@@ -97,7 +101,7 @@
 }
 .homeCanvasContainer > a:hover {
   color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .homeYoutubeButton{
   position: relative;
@@ -354,6 +358,7 @@
     letter-spacing: 15px;
     line-height: 60px;
   }
+  
   .homeCubeSkills {
     width: 100px;
     height: 100px;
